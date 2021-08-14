@@ -1,0 +1,32 @@
+SOLID
+Single Responsibility Principle 
+-Does your module have more than one reason that would cause it to change?
+Open – Closed Principle
+- Can your module be extended without changing it’s source code?
+Liskov Substitution Principle
+- Will your module break if you substitute a parent class for a child class?
+Interface Segregation Principle
+- Are you implementing an interface that containing members/methods you do not plan to use with that implementation?
+Dependency Inversion Principle 
+- Are your client(s) dependent on a concrete implementation?
+
+DRY
+Don’t Repeat Yourself	
+
+KISS
+Keep It Simple Stupid      
+
+YAGNI
+You Aren’t Gonna Need It
+
+SoC
+Separation of Concerns
+- Separate software modules by the distinct/unique work they perform.
+Note:  A method should only do one thing.
+
+Persistence Ignorance 
+- Modules should not depend on the chosen database technology.
+
+Anticipate Change	
+Don’t Reinvent the Wheel		
+Use Packages Wisely

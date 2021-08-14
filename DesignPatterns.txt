@@ -1,0 +1,29 @@
+Design Patterns
+
+Creational Patterns
+Factory: When you need a way to create objects outside of the capability of dependency injection. 
+Abstract Factory: When you need to create families of objects with different types.
+Builder: When you need to make complex objects with multiple steps that can’t/shouldn’t be created using a constructor or dependency injection.
+Prototype: When you need to be able to duplicate a complex object. Gives an object a Clone() method which returns a copy of itself. Helpful for objects with many properties or private fields.
+Singleton: When you need a class for a global variable or shared resource.
+
+Structural Patterns
+Adapter: When you need to have an object use the methods of another object’s interface.
+Bridge: When you want to create families of objects with different types. Used to create a family of types that those objects can access, reducing the amount of object/type combination classes that would need to be created otherwise.
+Composite: When you need to create objects composed of other objects that need-to-know details about the objects they are composed of.
+Decorator: When you need to expand the capability of a class and can’t/shouldn’t create subclasses.
+Façade: When you want to use a class/classes with many methods but only need some, or you want to hide a complex process from the rest of the code.
+Flyweight: When you need to create many objects and need to reduce memory/processing power they consume. Extract unchanging characteristics to separate object.
+Proxy: When you need to control access/provide a gateway to an object, or the creation of the real object is too expensive and isn’t always needed.
+
+Behavioral Patterns
+Chain of Responsibility: When you need to perform work/pass objects sequentially through a pipeline.
+Command: When you need to execute an event and hide how that event is executed from the client.
+Iterator: When you need to create a way to traverse a structure, and there aren’t existing methods for doing so.
+Mediator: When you need two objects to collaborate but do not want them dependent on each other.
+Memento: When you need to maintain a history of another object’s state.
+Observer: When you need to update several objects based on a certain event.
+State: When you need to modify an object’s methods dynamically based on current values of its/others’ properties.
+Strategy: When you have an object that does a lot of different things, and want to be able to do them dynamically, and/or when you have objects that all do the same thing but in slightly different ways.
+Template: When you have classes that need to implement a method in steps, but sometimes do not need every step.
+Visitor: When you need to perform an operation on an object, and the way it is performed depends on the object.

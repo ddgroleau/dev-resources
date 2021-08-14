@@ -1,0 +1,21 @@
+Software Development Reading List
+
+    Dan's List (in no particular order):
+
+        Clean Code: A Handbook of Agile Software Craftsmanship
+        Robert C. Martin
+
+        Refactoring
+        Martin Fowler
+
+        ASP.NET Core in Action
+        Andrew Lock
+
+        Clean Architecture
+        Robert C. Martin
+
+        Entity Framework Core in Action 
+        John P. Smith
+
+        Agile Principles, Patterns, and Practices in C#
+        Robert C. Martin

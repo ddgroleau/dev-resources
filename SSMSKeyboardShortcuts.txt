@@ -1,0 +1,27 @@
+SSMS Shortcuts
+
+Alt-Fn-PgUp		    Query - Cancel Executing Query (Break)
+Alt-Down Arrow	    Editing - Move Selected Lines Down
+Alt-Right Arrow		Intellisense - Complete Word
+Alt-Up Arrow		Editing - Move Selected Lines Up
+Alt-N			    Navigation - New query window
+Ctrl-E/Alt-X/F5		Query - Execute
+Ctrl-H-Tab		    Search - Quick Replace
+Ctrl-N			    Query - New Query with Current Connection
+Ctrl-O			    Open File
+Ctrl-R			    Query - Show / Hide Results Pane (toggle)
+Ctrl-U			    Navigation - Change database
+Ctrl-W			    Editing - Select word
+Ctrl-F4			    Navigation - Disconnect and close query window
+Ctrl-K+Ctrl-\		Editing - Delete Horizontal White Space
+Ctrl-K+Ctrl-C		Editing - Comment Selection
+Ctrl-K+Ctrl-S		Intellisense - Surround Width
+Ctrl-K+Ctrl-U		Editing - Uncomment Selection
+Ctrl-Shift-L		Editing - Make Lowercase
+Ctrl-Shift-U		Editing - Make Uppercase
+Ctrl-Shift-S		Query - Save All
+Ctrl-Shift-End		Editing - Select all text from cursor to end
+Ctrl-Shift-Home		Editing - Select all text from cursor to top
+Shift-Tab		    Editing - Indent decrease
+Tab			        Editing - Indent increase
+Alt-Mouse	        Select multiple lines / block of code

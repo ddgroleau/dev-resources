@@ -1,0 +1,25 @@
+Visual Studio Shortcuts
+
+F5	 		        Debug
+Ctrl-F5			    Start without debugging
+Ctrl-Shift-F5		Restart Debugger
+Ctrl-Shift-A		Add a new item
+Ctrl-K + Ctrl-C		Comment out a block of code
+Ctrl-K + Ctrl-U		Un-Comment out a block of code
+Ctrl-M + Ctrl-O		Collapse code block/definition
+Ctrl-M + Ctrl-P		Expand code block/definition
+Ctrl-K + Ctrl-S		Surround a block of code (ie add try/catch block)
+Ctrl-Y			    Redo an action
+Ctrl-Shift-S		Save all documents
+Ctrl-K-D			Format entire document
+Ctrl-K-F			Format selection
+Shift+F12		    Find all references
+Ctrl-L			    Cut entire line
+Ctrl-Enter		    New Line Above
+Ctrl-W			    Select current word
+Ctrl-H			    Replace
+Ctrl-D			    Duplicate
+Alt-Shift-Arrow		Select Multi-Line Block (Can use mouse too)
+Ctrl-Alt		    Add multi-line edit cursor (click to add per line)
+Alt-Shift-;	        Select all occurrences of word
+Alt-Shift-. 	S   elect next occurrence of word
