@@ -1,3 +1,4 @@
+Tasks
 Task name	                                        Prefix	        Type	        
 
 For Loop Container	                                FLC	            Container	
@@ -6,110 +7,113 @@ Sequence Container	                                SEQC	        Container
 ActiveX Script	                                    AXS	            Task	
 Analysis Services Execute DDL Task	                ASE	            Task	
 Analysis Services Processing Task	                ASP	            Task	
-Azure Blob Download Task	ADT	Task	*
-Azure Blob Upload Task	AUT	Task	*
-Azure HDInsight Create Cluster Task	ACCT	Task	*
-Azure HDInsight Delete Cluster Task	ACDT	Task	*
-Azure HDInsight Hive Task	AHT	Task	*
-Azure HDInsight Pig Task	APT	Task	*
-Back Up Database Task	BACKUP	Task	*
-Bulk Insert Task	BLK	Task	
-CDC Control Task	CDC	Task	*
-Check Database Integrity Task	CHECKDB	Task	*
-Data Flow Task	DFT	Task	
-Data Mining Query Task	DMQ	Task	
-Data Profiling Task	DPT	Task	*
-Execute Package Task	EPT	Task	
-Execute Process Task	EPR	Task	
-Execute SQL Server Agent Job Task	AGENT	Task	*
-Execute SQL Task	SQL	Task	
-Execute T-SQL Statement Task	TSQL	Task	*
-Expression Task	EXPR	Task	
-File System Task	FSYS	Task	
-FTP Task	FTP	Task	
-Hadoop File System Task	HFSYS	Task	*
-Hadoop Hive Task	HIVE	Task	*
-Hadoop Pig Task	PIG	Task	*
-History Cleanup Task	HISTCT	Task	*
-Maintenance Cleanup Task	MAINCT	Task	*
-Message Queue Task	MSMQ	Task	
-Notify Operator Task	NOT	Task	*
-Rebuild Index Task	REBIT	Task	*
-Reorganize Index Task	REOIT	Task	*
-Script Task	SCR	Task	
-Send Mail Task	SMT	Task	
-Shrink Database Task	SHRINKDB	Task	*
-Transfer Database Task	TDB	Task	
-Transfer Error Messages Task	TEM	Task	
-Transfer Jobs Task	TJT	Task	
-Transfer Logins Task	TLT	Task	
-Transfer Master Stored Procedures Task	TSP	Task	
-Transfer SQL Server Objects Task	TSO	Task	
-Update Statistics Task	STAT	Task	*
-Web Service Task	WST	Task	
-WMI Data Reader Task	WMID	Task	
-WMI Event Watcher Task	WMIE	Task	
-XML Task	XML	Task	
-Transformation name	Prefix	Type	New
-ADO NET Source	ADO_SRC	Source	*
-Azure Blob Source	AB_SRC	Source	*
-CDC Source	CDC_SRC	Source	*
-DataReader Source	DR_SRC	Source	
-Excel Source	EX_SRC	Source	
-Flat File Source	FF_SRC	Source	
-HDFS File Source	HDFS_SRC	Source	*
-OData Source	ODATA_SRC	Source	*
-ODBC Source	ODBC_SRC	Source	*
-OLE DB Source	OLE_SRC	Source	
-Raw File Source	RF_SRC	Source	
-SharePoint List Source	SPL_SRC	Source	
-XML Source	XML_SRC	Source	
-Aggregate	AGG	Transformation	
-Audit	AUD	Transformation	
-Balanced Data Distributor	BDD	Transformation	*
-Cache Transform	CCH	Transformation	*
-CDC Splitter	CDCS	Transformation	*
-Character Map	CHM	Transformation	
-Conditional Split	CSPL	Transformation	
-Copy Column	CPYC	Transformation	
-Data Conversion	DCNV	Transformation	
-Data Mining Query	DMQ	Transformation	
-Derived Column	DER	Transformation	
-DQS Cleansing	DQSC	Transformation	*
-Export Column	EXPC	Transformation	
-Fuzzy Grouping	FZG	Transformation	
-Fuzzy Lookup	FZL	Transformation	
-Import Column	IMPC	Transformation	
-Lookup	LKP	Transformation	
-Merge	MRG	Transformation	
-Merge Join	MRGJ	Transformation	
-Multicast	MLT	Transformation	
-OLE DB Command	CMD	Transformation	
-Percentage Sampling	PSMP	Transformation	
-Pivot	PVT	Transformation	
-Row Count	CNT	Transformation	
-Row Sampling	RSMP	Transformation	
-Script Component	SCR	Transformation	
-Slowly Changing Dimension	SCD	Transformation	
-Sort	SRT	Transformation	
-Term Extraction	TEX	Transformation	
-Term Lookup	TEL	Transformation	
-Union All	ALL	Transformation	
-Unpivot	UPVT	Transformation	
-ADO NET Destination	ADO_DST	Destination	*
-Azure Blob Destination	AB_DST	Destination	*
-Data Mining Model Training	DMMT_DST	Destination	
-Data Streaming Destination	DS_DST	Destination	*
-DataReaderDest	DR_DST	Destination	
-Dimension Processing	DP_DST	Destination	
-Excel Destination	EX_DST	Destination	
-Flat File Destination	FF_DST	Destination	
-HDFS File Destination	HDFS_DST	Destination	*
-ODBC Destination	ODBC_DST	Destination	*
-OLE DB Destination	OLE_DST	Destination	
-Partition Processing	PP_DST	Destination	
-Raw File Destination	RF_DST	Destination	
-Recordset Destination	RS_DST	Destination	
-SharePoint List Destination	SPL_DST	Destination	
-SQL Server Compact Destination	SSC_DST	Destination	*
-SQL Server Destination	SS_DST	Destination	
+Azure Blob Download Task	                        ADT	            Task	
+Azure Blob Upload Task	                            AUT	            Task	
+Azure HDInsight Create Cluster Task	                ACCT	        Task	
+Azure HDInsight Delete Cluster Task	                ACDT	        Task	
+Azure HDInsight Hive Task	                        AHT	            Task	
+Azure HDInsight Pig Task	                        APT	            Task	
+Back Up Database Task	                            BACKUP	        Task	
+Bulk Insert Task	                                BLK	            Task	
+CDC Control Task	                                CDC	            Task	
+Check Database Integrity Task	                    CHECKDB	        Task	
+Data Flow Task	                                    DFT	            Task	
+Data Mining Query Task	                            DMQ	            Task	
+Data Profiling Task	                                DPT	            Task	
+Execute Package Task	                            EPT	            Task	
+Execute Process Task	                            EPR	            Task	
+Execute SQL Server Agent Job Task	                AGENT	        Task	
+Execute SQL Task	                                SQL	            Task	
+Execute T-SQL Statement Task	                    TSQL	        Task	
+Expression Task	                                    EXPR	        Task	
+File System Task	                                FSYS	        Task	
+FTP Task	                                        FTP	            Task	
+Hadoop File System Task	                            HFSYS	        Task	   
+Hadoop Hive Task	                                HIVE	        Task	   
+Hadoop Pig Task	                                    PIG	            Task	
+History Cleanup Task	                            HISTCT	        Task	
+Maintenance Cleanup Task	                        MAINCT	        Task	
+Message Queue Task	                                MSMQ	        Task	
+Notify Operator Task	                            NOT	            Task	               
+Rebuild Index Task	                                REBIT	        Task	
+Reorganize Index Task	                            REOIT	        Task	
+Script Task	                                        SCR	            Task	
+Send Mail Task	                                    SMT	            Task	
+Shrink Database Task	                            SHRINKDB	    Task	
+Transfer Database Task	                            TDB	            Task	
+Transfer Error Messages Task	                    TEM	            Task	
+Transfer Jobs Task	                                TJT	            Task	
+Transfer Logins Task	                            TLT	            Task	
+Transfer Master Stored Procedures Task	            TSP	            Task	
+Transfer SQL Server Objects Task	                TSO	            Task	
+Update Statistics Task	                            STAT	        Task	
+Web Service Task	                                WST	            Task	
+WMI Data Reader Task	                            WMID	        Task	
+WMI Event Watcher Task	                            WMIE	        Task	
+XML Task	                                        XML	            Task	
+
+Transformation 
+Name	                                            Prefix	        Type
+
+ADO NET Source	                                    ADO_SRC	        Source	
+Azure Blob Source	                                AB_SRC	        Source	
+CDC Source	                                        CDC_SRC	        Source	
+DataReader Source	                                DR_SRC	        Source	
+Excel Source	                                    EX_SRC	        Source	
+Flat File Source	                                FF_SRC	        Source	
+HDFS File Source	                                HDFS_SRC	    Source	
+OData Source	                                    ODATA_SRC	    Source	
+ODBC Source	                                        ODBC_SRC	    Source	
+OLE DB Source	                                    OLE_SRC	        Source	
+Raw File Source	                                    RF_SRC	        Source	
+SharePoint List Source	                            SPL_SRC	        Source	
+XML Source	                                        XML_SRC	        Source	
+Aggregate	                                        AGG	            Transformation	
+Audit	                                            AUD	            Transformation	
+Balanced Data Distributor	                        BDD	            Transformation	
+Cache Transform	                                    CCH	            Transformation	
+CDC Splitter	                                    CDCS	        Transformation	
+Character Map	                                    CHM	            Transformation	
+Conditional Split	                                CSPL	        Transformation	
+Copy Column	                                        CPYC	        Transformation	
+Data Conversion	                                    DCNV	        Transformation	
+Data Mining Query	                                DMQ	            Transformation	
+Derived Column	                                    DER	            Transformation	
+DQS Cleansing	                                    DQSC	        Transformation	
+Export Column	                                    EXPC	        Transformation	
+Fuzzy Grouping	                                    FZG	            Transformation	
+Fuzzy Lookup	                                    FZL	            Transformation	
+Import Column	                                    IMPC	        Transformation	
+Lookup	                                            LKP	            Transformation	
+Merge	                                            MRG	            Transformation	
+Merge Join                                      	MRGJ	        Transformation	
+Multicast	                                        MLT	            Transformation	
+OLE DB Command                                  	CMD	            Transformation	
+Percentage Sampling	                                PSMP	        Transformation	
+Pivot	                                            PVT	            Transformation	
+Row Count	                                        CNT	            Transformation	
+Row Sampling	                                    RSMP	        Transformation	
+Script Component                                	SCR	            Transformation	
+Slowly Changing Dimension                       	SCD	            Transformation	
+Sort	                                            SRT	            Transformation	
+Term Extraction	                                    TEX	            Transformation	
+Term Lookup	                                        TEL	            Transformation	
+Union All	                                        ALL	            Transformation	
+Unpivot	                                            UPVT            Transformation	
+ADO NET Destination	                                ADO_DST	        Destination	
+Azure Blob Destination	                            AB_DST	        Destination	
+Data Mining Model Training	                        DMMT_DST	    Destination	
+Data Streaming Destination	                        DS_DST	        Destination	
+DataReaderDest	                                    DR_DST	        Destination	
+Dimension Processing	                            DP_DST	        Destination	
+Excel Destination	                                EX_DST	        Destination	
+Flat File Destination	                            FF_DST	        Destination	
+HDFS File Destination	                            HDFS_DST	    Destination	
+ODBC Destination	                                ODBC_DST	    Destination	
+OLE DB Destination	                                OLE_DST	        Destination	
+Partition Processing	                            PP_DST	        Destination	
+Raw File Destination	                            RF_DST	        Destination	
+Recordset Destination	                            RS_DST	        Destination	
+SharePoint List Destination	                        SPL_DST	        Destination	
+SQL Server Compact Destination	                    SSC_DST	        Destination	
+SQL Server Destination	                            SS_DST	        Destination	
