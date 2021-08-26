@@ -1,0 +1,15 @@
+Debugging
+
+Steps:
+1. Identify problem.
+2. Explore the simple or "stupid" reasons why this problem may be occurring (i.e user error, syntax/spelling error).
+3. Re-create problem. This will get you as close to the error as possible. If problem cannot be re-created, collect error details, screenshots, etc.
+4. Create an informed hypothesis, "The problem is caused by X".
+5. Create a null hypothesis "The problem is not caused by X".
+6. Attempt to reject (prove wrong) the null hypothesis through testing.
+7. If you fail to reject the null hypothesis, the issue has been determined. If you can reject the null hypothesis, repeat steps 4-6.
+
+Methodology: 
+I use the inverse hypothesis because the problem could be cause by a number of things, and the inverse isolates one causal factor. 
+It ensures that the root cause you are testing is truly the root cause and not a red herring.
+The rejecting the null hypothesis also forces you to prove that your hypothesis is correct.
