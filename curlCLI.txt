@@ -1,0 +1,43 @@
+GET
+
+	-curl https://jsonplaceholder.typicode.com/posts
+	-curl https://jsonplaceholder.typicode.com/posts?id=99
+
+POST
+
+	URL Encoded
+	-curl -X POST -d "userId=5&title=Stuff and Things&body=An amazing blog post about both stuff and things." https://jsonplaceholder.typicode.com/posts
+	
+	JSON
+	-curl -X POST -H "Content-Type: application/json" -d '{"userId": 5, "title": "Stuff and Things", "body": "An amazing blog post about both stuff and things."}' https://jsonplaceholder.typicode.com/posts
+
+PUT
+
+	URL Encoded
+	-curl -X PUT -d "userId=1&title=Something else&body=A new body" https://jsonplaceholder.typicode.com/posts/1
+
+	JSON
+	curl -X PUT -H "Content-Type: application/json" -d '{"userId": 1, "title": "Something else", "body": "A new body"}' https://jsonplaceholder.typicode.com/posts/1
+
+PATCH
+
+	URL Encoded
+	curl -X PATCH -d "title='Only change the title'" https://jsonplaceholder.typicode.com/posts/1
+
+	JSON
+	curl -X PATCH -H "Content-Type: application/json" -d '{"title": "Only change the title"}' https://jsonplaceholder.typicode.com/posts/1
+
+DELETE
+
+	-curl -X DELETE https://jsonplaceholder.typicode.com/posts/1
+
+Authentication
+
+	      curl \
+  		-H "Content-Type: application/json" \
+  		-H "Authorization: Bearer <JWT_TOKEN>" \
+  		-H "x-jwt-assertion: <JWT_TOKEN>" \
+  		-X POST \
+  		-d  '{"key1" : "value1", "key2" : "value2"}' \
+  		https://example.com/
+
