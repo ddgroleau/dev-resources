@@ -20,7 +20,7 @@ async function getData() {
 async function postData() {
     try {
             const response = await fetch('https://api-to-call/endpoint', {
-                method = 'POST',
+                method: 'POST',
                 body: JSON.stringify({id: '200'})
             });
             if (response.ok) {

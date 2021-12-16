@@ -1,0 +1,36 @@
+Windows Terminal Keyboard Shortcuts
+Following are the Windows Terminal keyboard shortcuts.
+
+Ctrl + Shift + Number: Open new profiles/tabs. Use this shortcut to open a new profile or tab in Windows Terminal. Each number represents a specific profile in the Terminal. Profiles are numbered in the top-down form in the profile selection dropdown menu on the title bar. For example, if the PowerShell profile is in the second position, you should press the “Ctrl + Shift + 2” to open it.
+
+Ctrl + Alt + Number: Switch to a specific tab. Use this shortcut to switch between tabs. Tabs are numbered from left to right and start with “1.” For example, if you want to switch to the third tab, press “Ctrl + Alt + 3.”
+
+Ctrl + Shift + Space: Opens profile selection dropdown menu. You can then use the up/down arrow keys to select and open the profile.
+
+Ctrl + Shift + T: Opens a new tab with the default profile.
+
+Ctrl + Shift + N: Opens a new Windows Terminal instance.
+Ctrl + Shift + D: This shortcut will duplicate or open another instance of the current tab. However, it will not copy the content of the original tab.
+
+Ctrl + C: Copy selected text. Select the text in the Terminal and press the shortcut to copy it to the clipboard. Once copied, you can paste it anywhere you want.
+
+Ctrl + V: Paste clipboard content. Pressing this shortcut will paste the clipboard contents into the Terminal. Keep in mind that only compatible content, like text, will be pasted. If you try to paste incompatible content, like an image, the result will not be as expected or intended.
+
+Ctrl + Shift + W: Close the current tab (not the entire application).
+Alt + F4: Close the Windows Terminal window. If there are multiple tabs, you might see a warning prompt. In that case, click “Close all” to continue.
+
+Ctrl + Shift + F: Opens the “Find” function. It can be used to find instances of a text or sentence in a terminal tab. This functionality is similar to what you find in a browser or other applications like Notepad, Word, etc.
+Ctrl + Numpad Add/Minus: Increase or decrease the text size in the Windows Terminal tab.
+
+Ctrl + 0: Reset the font or text size its default (100%).
+
+Ctrl + Shift + Up/Down arrow: Scroll up or down in the Windows Terminal.
+
+Ctrl + Shift + PageUp/PageDown: Move to top or bottom in the Windows Terminal.
+
+Alt + Shift + Minus/Plus: Split current pane horizontally or vertically.
+
+Ctrl + Shift + P: Toggle command palette. It can be used to select and execute a command or action from the available list.
+
+Ctrl + Shift + ,: This shortcut opens the Settings tab in the Windows Terminal.
+F11: Toggle fullscreen.
